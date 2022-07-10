@@ -1,0 +1,35 @@
+.form {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input[type="text"] {
+  height: 40px;
+  padding: 0 20px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  min-width: 80%;
+  transition: box-shadow .3s;
+}
+
+.form input[type="text"]:focus {
+  box-shadow: 0 0 5px rgba(9, 79, 145, 0.5);
+}
+
+.form button[type="submit"]{
+  border: none;
+  height: 40px;
+  width: 40px;
+  background: #f04c64;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background .5s;
+}
+
+.form button[type="submit"]:hover {
+  background: #d34359;
+}

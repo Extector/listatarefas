@@ -1,0 +1,36 @@
+.task-list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  transition: background .3s;
+} 
+
+.task-list li:hover {
+  background: rgba(172, 196, 233, 0.356);
+}
+
+.task-list li div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+li .edit{
+  cursor: pointer;
+  color: rgb(241, 182, 55);
+}
+
+li .delete {
+  cursor: pointer;
+  color: #df3d3d;
+}
